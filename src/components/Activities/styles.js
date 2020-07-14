@@ -1,22 +1,22 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  margin-top: 25px;
-  padding: 0 16px;
+  margin-top: 20px;
+  padding: 0 14px;
 `;
 
 export const Header = styled.View``;
 
 export const Title = styled.Text`
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 `;
 
 export const Card = styled.View`
   background: #1e222b;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 16px;
   padding: 15px;
 `;
 
@@ -29,7 +29,7 @@ export const Avatar = styled.Image``;
 
 export const Description = styled.Text`
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   margin-left: 15px;
 `;
 
@@ -43,7 +43,7 @@ export const CardBody = styled.View`
 
 export const UserName = styled.Text`
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
 `;
 
 export const CardFooter = styled.View`
@@ -59,7 +59,7 @@ export const Details = styled.View`
 
 export const Value = styled.Text`
   color: #f75175;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
 `;
 
@@ -72,6 +72,7 @@ export const Divider = styled.View`
 
 export const Date = styled.Text`
   color: #fff;
+  font-size: 10px;
   margin-left: 5px;
 `;
 
@@ -86,6 +87,6 @@ export const Option = styled.TouchableOpacity`
 
 export const OptionLabel = styled.Text`
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
   margin-left: 5px;
 `;

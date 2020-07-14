@@ -10,6 +10,6 @@ export const Button = styled(LinearGradient)`
 `;
 
 export const Label = styled.Text`
-  font-size: 12px;
+  font-size: 8px;
   color: ${({ focused }) => focused ? '#000' : '#fff'};
 `;
