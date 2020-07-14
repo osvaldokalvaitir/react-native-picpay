@@ -24,5 +24,5 @@ export const Label = styled.Text`
   color: #fff;
   font-weight: bold;
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 12px;
 `;

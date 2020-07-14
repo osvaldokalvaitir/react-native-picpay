@@ -7,7 +7,7 @@ export const Wrapper = styled.View`
 `;
 
 export const Header = styled(LinearGradient)`
-  height: 300px;
+  height: 280px;
 `;
 
 export const HeaderContainer = styled.SafeAreaView`
@@ -18,18 +18,18 @@ export const HeaderContainer = styled.SafeAreaView`
 
 export const Title = styled.Text`
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 `;
 
 export const BalanceContainer = styled.View`
-  margin: 10px 0;
+  margin: 5px 0;
   flex-direction: row;
   align-items: center;
 `;
 
 export const Value = styled.Text`
-  font-size: 38px;
+  font-size: 34px;
   color: #fff;
   font-weight: 200;
 `;
@@ -44,7 +44,7 @@ export const EyeButton = styled.TouchableOpacity`
 
 export const Info = styled.Text`
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 `;
 
@@ -65,7 +65,7 @@ export const Action = styled.TouchableOpacity`
 `;
 
 export const ActionLabel = styled.Text`
-  font-size: 16px;
+  font-size: 12px;
   color: #fff;
   margin-left: 10px;
 `;
@@ -81,17 +81,18 @@ export const UseBalance = styled.View`
 
 export const UseBalanceTitle = styled.Text`
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
 `;
 
 export const PaymentMethods = styled.View`
   margin-top: 25px;
-  padding: 0 16px;
+  padding: 0 14px;
 `;
 
 export const PaymentMethodsTitle = styled.Text`
   color: #8E8E93;
+  font-size: 12px;
   text-transform: uppercase;
 `;
 
@@ -108,17 +109,17 @@ export const CardBody = styled.View`
 
 export const CardDetails = styled.View`
   flex: 1;
-  margin-right: 20px;
+  margin-right: 40px;
 `;
 
 export const CardTitle = styled.Text`
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   color: #fff;
 `;
 
 export const CardInfo = styled.Text`
-  font-size: 14px;
+  font-size: 10px;
   color: rgba(255, 255, 255, 0.8);
   margin-top: 15px;
 `;
@@ -135,7 +136,7 @@ export const AddButton = styled.TouchableOpacity`
 
 export const AddLabel = styled.Text`
   color: #0DB060;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   margin-left: 15px;
 `;
@@ -151,7 +152,7 @@ export const UseTicketButton = styled.TouchableOpacity`
 
 export const UseTicketLabel = styled.Text`
   color: #0DB060;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-left: 15px;
   text-decoration-line: underline;

@@ -7,13 +7,13 @@ export const Container = styled.ScrollView.attrs({
     paddinLeft: 16,
   },
 })`
-  margin-top: 25px;
+  margin-top: 20px;
 `;
 
 export const Option = styled.TouchableOpacity`
   background: ${({ bgColor }) => bgColor};
-  width: 150px;
-  height: 200px;
+  width: 130px;
+  height: 180px;
   border-radius: 8px;
   padding: 15px;
   justify-content: space-between;
@@ -22,7 +22,7 @@ export const Option = styled.TouchableOpacity`
 
 export const Title = styled.Text`
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 `;
 
