@@ -8,6 +8,7 @@ export const Wrapper = styled.SafeAreaView`
 export const Container = styled.ScrollView``;
 
 export const Header = styled.View`
+  margin-top: 20px;
   height: 50px;
   padding: 0 16px;
   flex-direction: row;
