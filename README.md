@@ -1,92 +1,68 @@
-# React Native - PicPay
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-picpay/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-picpay.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-picpay.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-picpay.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-picpay.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-picpay.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-picpay.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - PicPay
+</h3>
 
-Aplicação PicPay usando React Native, Expo, @react-navigation/native, @react-navigation/bottom-tabs, expo-linear-gradient e styled-components.
+<p align="center">
+  :credit_card: PicPay Application using React Native, Expo, @react-navigation/native, @react-navigation/bottom-tabs, expo-linear-gradient and styled-components
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-picpay.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-picpay.svg?color=00A83A">
 
-  - [Home](#home)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Carteira](#carteira)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Carteira - Não Usar Saldo](#carteira---não-usar-saldo)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+## :iphone: Demo
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+![Demo](/.github/assets/demo.gif)
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+Open terminal:
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-picpay
 
-  - [Bibliotecas](#bibliotecas)
+# Entry in folder
+cd react-native-picpay
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Home
+# Launch the app on ios with expo
+expo start
 
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, onde aparece o saldo, ações, atividades e dicas.
+# The Metro Bundler will open in the browser tab.
 
-### Carteira
+# Click 'Run on Android device/emulator' to run the project in Android emulator.
+# ps: On Android, you need to accept a permission before installing.
 
-![Wallet](/.github/assets/wallet.png)
-Nesta tela, aparece o saldo podendo ocultá-lo, opção de usar saldo ao pagar e informações de forma de pagamento.
+# Click 'Run on iOS simulator' to run the project in iOS emulator.
+```
 
-### Carteira - Não Usar Saldo
+## :memo: License
 
-![Wallet - Not Use Balance](/.github/assets/wallet-not-use-balance.png)
-Não usando saldo ao pagar, o cabeçalho muda para a cor cinza.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-## Desenvolvimento
+---
 
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md) e siga `Execução de Projeto para Desenvolvimento no React Native no Emulador Android e iOS`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@react-navigation/native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-native.md)
-
-- [@react-navigation/bottom-tabs](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-bottom-tabs.md)
-
-- [Expo CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md)
-
-- [expo-linear-gradient](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-linear-gradient.md)
-
-- [expo-status-bar](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-status-bar.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native MaskedView](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-masked-view.md)
-
-- [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
-
-- [react-native-safe-area-context](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-safe-area-context.md)
-
-- [react-native-screens](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-screens.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
