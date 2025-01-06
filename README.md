@@ -46,7 +46,7 @@ cd react-native-picpay
 # Install deps with npm or yarn
 npm install | yarn
 
-# Launch the app on ios with expo
+# Launch the app on android or ios with expo
 npm run start | yarn start
 
 # The Metro Bundler will open in the browser tab.
